@@ -10,14 +10,14 @@ const HelloMui: NextPage = () => {
           p: 6,
           ml: 2,
           mt: 3,
-          color: { xs: "white", md: "red" },
-          textTransform: "none",
+          color: { xs: 'white', md: 'red' },
+          textTransform: 'none',
         }}
       >
         Hello, MUI
       </Button>
     </>
-  );
+  )
 }
 
 export default HelloMui
