@@ -1,7 +1,7 @@
 import axios, { AxiosResponse, AxiosError } from 'axios'
 
 // fetcher関数は指定されたURLからデータを取得します
-export const fetcher = (url: string) => 
+export const fetcher = (url: string) =>
   axios
     .get(url) // 指定されたURLにGETリクエストを送信します
     .then((res: AxiosResponse) => res.data) // レスポンスが成功した場合、レスポンスのデータを返します
